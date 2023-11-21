@@ -11,6 +11,10 @@
 # Her testim bir adi olmak zorunda
 Bu benim ilk testim
     Log To Console    Bu benim ilk robot framework mesajim
+    Log To Console    Bu da benim ikinci mesajim
+
+Bu da benim ikinci testim
+    Log To Console    İkinci testimin ilk mesaji
 
 
 *** Keywords ***
