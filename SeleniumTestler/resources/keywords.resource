@@ -1,7 +1,7 @@
 *** Settings ***
 Library        SeleniumLibrary
 Library    Collections
-Library    FakerLibrary               
+Library    FakerLibrary              
 Variables        Locators.py
 
 
@@ -43,7 +43,7 @@ Yeni Uyelik Olustur
         ...    name=${name}
         ...    lastname=${lastname}
         ...    email=${email}
-        ...    password=${password}                     
+        ...    password=${password}     
     END 
 
     Click Link    xpath=${REGISTER}
@@ -60,6 +60,6 @@ Yeni Uyelik Olustur
     Click Button    xpath=//input[@value="Continue"]
 
     Set Global Variable    ${user}
-    Sleep    600
+    
     
     
