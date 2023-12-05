@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231205 12:12:37.118" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\hasba\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Set Variable" library="BuiltIn">
+<var>${END_POINT}</var>
+<arg>planetary/apod</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20231205 12:12:38.495" level="INFO">${END_POINT} = planetary/apod</msg>
+<status status="PASS" starttime="20231205 12:12:38.495" endtime="20231205 12:12:38.495"/>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<var>${PARAMETRE}</var>
+<arg>api_key=ZJUOmeQwjdxoktl5xCvnEgqXuQhNTRIP2XYbivV8</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<msg timestamp="20231205 12:12:38.496" level="INFO">${PARAMETRE} = {'api_key': 'ZJUOmeQwjdxoktl5xCvnEgqXuQhNTRIP2XYbivV8'}</msg>
+<status status="PASS" starttime="20231205 12:12:38.495" endtime="20231205 12:12:38.496"/>
+</kw>
+<status status="PASS" starttime="20231205 12:12:37.155" endtime="20231205 12:12:48.690"/>
+</kw>
+<status status="PASS" starttime="20231205 12:12:37.154" endtime="20231205 12:12:48.691"/>
+</test>
+<status status="PASS" starttime="20231205 12:12:37.122" endtime="20231205 12:12:48.692"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
